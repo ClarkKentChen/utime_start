@@ -1,0 +1,118 @@
+/* 主色调*/
+
+.p_red {
+    color: #fb3353;
+}
+
+.p_purple {
+    color: #4a52fd;
+}
+
+#root {
+    max-width: 640px
+}
+
+body {
+    padding: 0;
+    max-width: 640px
+}
+
+
+/* iphone 6 */
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+/* iphone6 plus */
+
+@media (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    html {
+        font-size: 13px;
+    }
+}
+
+.max_width {
+    max-width: 640px;
+    background-color: #fff;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+    /*border: 1px solid #ddd;*/
+}
+
+.login_bg {
+    width: 100%;
+    border: 1px solid red;
+    height: auto;
+    /*background: url("../images/login_bg.png");*/
+}
+
+.app_body {
+    max-width: 640px;
+    /*width: 1000px;*/
+    /*overflow: hidden;*/
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.loginHeader {}
+
+.loginHeader img {
+    width: 70%;
+    text-align: center;
+}
+
+.form_text {
+    /*margin-top: 15rem;*/
+    width: 90%;
+    margin: 15rem 0 auto auto;
+}
+
+.form_text span {
+    float: left;
+}
+
+.form_text ul li {
+    height: 3rem;
+    /*overflow: hidden;*/
+}
+
+.form_text ul li:nth-child(2) {
+    margin-top: 2rem;
+}
+
+.form_text ul li:last-child {
+    margin-top: 9rem;
+    height: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.form_text ul li:last-child img {
+    width: 90%;
+}
+
+.form_text ul li input {
+    width: 70%;
+    height: 3rem;
+    outline: none;
+    font-size: 1.4rem;
+    /*border: none;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #dedede;
+    /*border-bottom: 1px solid #dedede;*/
+}
+
+.loginHeader {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 7rem;
+}
